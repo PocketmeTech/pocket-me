@@ -29,12 +29,13 @@ function Hero(){
                 <h1 className="text-5xl font-bold leading-normal">Quick, easy and hassle-free personal loans</h1>
                 <p>Get instant access to personal loan upto ₹1,00,000 with Pocketme.</p>
                 <div className="flex flex-col md:flex-row gap-10 items-center">
-                    <a href="#">
-                        <img className="w-80" src="https://pocketme.in/assets/images/google-play.png" alt="" />
+                    <a href="https://t.ly/r8itP">
+                        <img className="w-80" src="/google-play.png" alt="" />
                     </a>
+                    {/*
                     <a href="#">
-                        <img className="w-80" src="https://pocketme.in/assets/images/app-store.png" alt="" />
-                    </a>
+                        <img className="w-80" src="/app-store.png" alt="" />
+                    </a>*/}
                 </div>
             </motion.div>
             <motion.div className="flex-grow flex justify-center"
@@ -49,7 +50,7 @@ function Hero(){
                     delay:1
                 }}
             >
-                <img className="max-w-xs self-center" src="	https://pocketme.in/assets/images/slider-dec.png" alt="slider" />
+                <img className="max-w-xs self-center" src="/slider-dec.png" alt="slider" />
             </motion.div>
         </motion.div>
     )

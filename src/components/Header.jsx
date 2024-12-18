@@ -25,7 +25,7 @@ export const Header = () => {
             }}
         >
             <nav className='flex px-10 md:px-20 items-center justify-between gap-10 bg-white z-50 border-b-2'>
-                <img className="w-36 md:w-40 lg:w-48 z-100" src="https://pocketme.in/assets/images/logo.svg" alt="logo" />
+                <img className="w-36 md:w-40 lg:w-48 z-100" src="/logo.svg" alt="logo" />
                 <div className='hidden md:flex gap-10 '>
                     {navLinks.map((link,idx) => (
                         <NavLink key={idx} className="py-8" to={link.routePath} >{link.routeName}</NavLink>

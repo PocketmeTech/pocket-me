@@ -19,6 +19,10 @@ const value = [
     {
         routeName : "Contact Us",
         routePath : "/contact-us"
+    },
+    {
+        routeName : "FAQs",
+        routePath : "/faq"
     }
 ]
 

@@ -10,7 +10,7 @@ function WhyPocketme(){
             <div className="text-center my-5 text-3xl font-bold">
                 Why Pocketme
             </div>
-            <img className="mx-auto mb-10" src="https://pocketme.in/assets/images/heading-line-dec.png" alt="" />
+            <img className="mx-auto mb-10" src="../src/assets/images/heading-line-dec.png" alt="" />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
                 {cards.map((item,idx) => (
                     <Card key={idx} url={item.url} title={item.title} description={item.description} />

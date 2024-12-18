@@ -1,11 +1,11 @@
 function AboutUs(){
     return (
     <div>
-        <div className="px-20 my-20">
+        <div className="px-10 md:px-20 my-20">
             <div className="text-center my-5 text-3xl font-bold">
                About Us
             </div>
-            <img className="mx-auto mb-10" src="https://pocketme.in/assets/images/heading-line-dec.png" alt="" />
+            <img className="mx-auto mb-10" src="/heading-line-dec.png" alt="" />
             <div className="text-center text-xl mb-3 font-bold">Welcome to Pocketme!</div>
             <p className="leading-loose text-justify">
                 We are a team of passionate and diverse people working to make borrowing money easy and transparent in India.

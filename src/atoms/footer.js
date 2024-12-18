@@ -44,11 +44,11 @@ const data = [
         links : [
            {
                 title :"Terms & Conditions",
-                link : "#"
+                link : "/terms-and-conditions"
            },
            {
                 title :"Privacy Policy",
-                link : "#"
+                link : "/privacy-policy"
            },
            {
                 title :"Code of Conduct",
